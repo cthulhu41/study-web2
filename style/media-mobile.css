@@ -1,0 +1,79 @@
+@media (max-width: 992px) {
+    /* nav */
+
+    .nav {
+        height: 10vw;
+    }
+
+    .nav__logo {
+        font-size: 1.5rem;
+    }
+
+    .nav__items-list {
+        margin-top: 30vw;
+    }
+
+    .nav__item {
+        font-size: 1.2rem;
+        margin: 2vw 0 2vw 0;
+    }
+
+    /* main */
+
+    .main__content-container p{
+        font-size: 1rem;
+    }
+
+    .philo {
+        font-size: .8rem;
+    }
+
+    /* assort */
+
+    .assort__wrapper {
+        grid-template-columns: 50% 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .assort__wrapper__block img{
+        margin-top: 4%;
+        max-width: 80%;
+    }
+
+    /* fast-info */
+
+    .fast-info__wrapper__heading {
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+
+    .fast-info__wrapper__text {
+        font-size: 1rem;
+    }
+
+    .fast-info__wrapper__toggler {
+        font-size: 1.2rem;
+    }
+
+    /* contact */
+
+    .contact__wrapper {
+        flex-direction: column;
+    }
+
+    .contact__wrapper__form__input {
+        width: 50vw;
+        height: auto;
+    }    
+
+    .contact__wrapper__form__button {
+        width: 20vw;
+    }
+
+    .contact__wrapper__blocks-info {
+        font-size: 1rem;
+    }
+
+
+}
